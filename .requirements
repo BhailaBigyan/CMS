@@ -1,0 +1,60 @@
+
+### Functional Requirements
+1. **Admin Panel**:
+   - Login functionality for the admin.
+   - Add, edit, and delete posts.
+   - View and manage user comments.
+   - Dashboard for analytics (likes, comments, shares).
+
+2. **User Features**:
+   - Registration and login functionality.
+   - Ability to view content dynamically.
+   - Like, comment, and share posts.
+   - Profile management (view and edit personal details).
+
+3. **Content Management**:
+   - Display posts dynamically based on categories or tags.
+   - Show timestamps for posts and comments.
+   - Responsive layout for mobile and desktop views.
+
+4. **Security**:
+   - Input validation for forms to prevent SQL injection.
+   - Password hashing for secure authentication.
+   - Role-based access control (admin vs. user).
+
+5. **Database Operations**:
+   - Create tables for users, posts, comments, and likes.
+   - Implement relationships between tables (e.g., one-to-many for users and posts).
+   - Optimize queries for better performance.
+
+6. **Engagement Features**:
+   - Comment moderation system for the admin.
+   - Social media sharing integration.
+   - Pagination for posts and comments.
+
+### Non-Functional Requirements
+1. **Performance**:
+   - Fast loading times for pages.
+   - Efficient database queries.
+
+2. **Usability**:
+   - Intuitive navigation and UI design.
+   - Clear distinction between admin and user interfaces.
+
+3. **Scalability**:
+   - Support for a growing number of users and posts.
+   - Flexible database structure for additional features.
+
+4. **Accessibility**:
+   - Responsive design.
+   - Support for accessibility standards (e.g., ARIA).
+
+5. **Technology Stack**:
+   - PHP for server-side scripting.
+   - MySQL for database management.
+   - XAMPP for the local development environment.
+
+### Tools
+- **Editor**: Cursor with integrated commands.
+- **Testing**: Use Postman for API testing, and browser tools for frontend debugging.
+- **Styling**: CSS frameworks like Bootstrap for attractive UI design.
