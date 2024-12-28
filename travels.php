@@ -5,7 +5,7 @@ require("./includes/functions.php");
 $connect = mysqli_connect('localhost', 'root', '', 'php_cms');
 
 // Fetch all blog posts
-$postsQuery = "SELECT id, title, description, image, category, author, created_at FROM blog_posts where category ='Blogs' ORDER BY created_at DESC";
+$postsQuery = "SELECT id, title, description, image, category, author, created_at FROM blog_posts where category ='Travel' ORDER BY created_at DESC";
 $postsResult = mysqli_query($connect, $postsQuery);
 ?>
 
